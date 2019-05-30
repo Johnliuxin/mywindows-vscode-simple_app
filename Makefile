@@ -3,14 +3,14 @@
 ## You don't need to modify this Makefile even if you add a c code
 ## For more information about this Makefile, check the following link:
 ## http://blog.chinaunix.net/uid-20316928-id-3395996.html
-## <¸úÎÒÒ»ÆðÐ´Makefile-³Âð©.pdf : 5.8>
+## <ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ð´Makefile-ï¿½ï¿½ï¿½.pdf : 5.8>
 ##
 
 # Define the macro needed to be passed to source code
 MACRO :=
 
 # Define the build flags
-CFLAGS :=
+CFLAGS := -g
 
 ifneq ($(MACRO),)
 CFLAGS += -D$(MACRO)
